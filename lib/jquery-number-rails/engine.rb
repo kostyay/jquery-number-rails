@@ -1,5 +1,5 @@
 module JQuery
-  module Numbers
+  module Number
     module Rails
       class Engine < ::Rails::Engine
       end

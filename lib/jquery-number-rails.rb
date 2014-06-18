@@ -1,12 +1,12 @@
-require 'jquery-numbers-rails/version'
+require 'jquery-number-rails/version'
 
 module JQuery
   module Numbers
     module Rails
       if ::Rails.version < '3.1'
-        require 'jquery-numbers-rails/railtie'
+        require 'jquery-number-rails/railtie'
       else
-        require 'jquery-numbers-rails/engine'
+        require 'jquery-number-rails/engine'
       end
     end
   end

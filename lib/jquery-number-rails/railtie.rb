@@ -1,5 +1,5 @@
 module JQuery
-  module Numbers
+  module Number
     module Rails
       class Railtie < ::Rails::Railtie;
       end

@@ -1,5 +1,5 @@
 module JQuery
-  module Numbers
+  module Number
     module Rails
       VERSION = '2.1.3'
     end
